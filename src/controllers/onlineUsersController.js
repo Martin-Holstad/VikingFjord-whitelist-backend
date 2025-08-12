@@ -1,12 +1,7 @@
 import rcon from "rcon-client";
 
 export default async function onlineUsersController() {
-  console.log("RCON Config:", {
-  host: process.env.RCON_IP,
-  port: process.env.RCON_PORT,
-  password: process.env.RCON_PASSWORD ? "***" : "undefined",
-});
-
+  
   const client = new rcon.Rcon({
     host: process.env.RCON_IP,
     port: process.env.RCON_PORT,
