@@ -30,5 +30,5 @@ app.set("trust proxy", 1);
 app.use(router);
 
 app.listen(port, () => {
-  console.log(`Minecraft login listening on port ${port} (HTTP)`);
+  console.log(`Minecraft login listening on port ${port}`);
 });
