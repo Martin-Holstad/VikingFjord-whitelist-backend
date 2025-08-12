@@ -8,7 +8,7 @@ import router from "./src/routes/index.js";
 import resetMinecraftServer from "./src/utils/resetMinecraftServer.js";
 dotenv.config();
 
-const port = process.env.SERVER_PORT;
+const port = process.env.PORT || 3000;
 
 const app = express();
 

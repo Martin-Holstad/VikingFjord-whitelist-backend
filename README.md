@@ -1,10 +1,10 @@
-# VikingFjord whitelist backend
+# VikingFjord backend
 
 ![image](https://github.com/user-attachments/assets/08b172b8-029a-4273-ad58-88a738bdb92a)
 
 ## Description
 
-Welcome to VikingFjord whitelist backend! This is a simple Express application that leverages the Minecraft server RCON system to whitelist players who provide correct credentials. Additionally, it serves an API to the frontend, providing server status, an in-game clock and the Minecraft version.
+Welcome to VikingFjord backend! This is a simple Express application that leverages the Minecraft server RCON system to whitelist players who provide correct credentials. Additionally, it serves an API to the frontend, providing server status, an in-game clock and the Minecraft version.
 
 [Link to VikingFjord website](https://vikingfjord.netlify.app/)
 
